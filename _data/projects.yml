@@ -1,0 +1,9 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+# geoslicer
+- project: GeoSlicer - Automated Terrain Map Generation
+  role: Primary Developer
+  duration: 2017 &mdash; Present
+  # url: "apotts.me/geoslicer"
+  description: Working in NextFab’s North Fourth space I’ve been learning some new machines and looking at how I can use my programing knowledge to bring some data into the real world. I’ve been training on a number of machines there including multi axis milling machines, 3d printers, and laser cutters that I can use to programmatically create objects. My current work is focused on sourcing data from Google Maps, OpenStreetMap, and NASA's raw SRTM data to create high detail, printable, 3d topographic maps for use as immersive guides or art. I’m currently using Python, PostGIS, Django, and some bash scripting to request, assemble, and manipulate the data into a workable format that these machines can interact with. My aim is to allow anyone to select an area on the globe and purchase the files to print that area with the CNC tool of their choice, or send it to my own machines to be printed and shipped.

@@ -23,6 +23,44 @@ stackoverflow_link:
 xing_link:
 facebook_link:
 
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Alexander J. Potts"
+resume_title:                   "Software Engineer"
+resume_contact_email:           "lex.potsus@gmail.com"
+resume_header_intro: "A techie at heart who got started in middle school modifying video games. Now a web development specialist with many successful websites under his belt. Alex works great in teams, having worked with others to rapidly develop a web startup and collaborated on many websites. Alex is also comfortable working by himself, having taken on multiple month long projects solo in order to meet customer needs. He is a fast learner and quickly picks up new skills while on the job. Alex is also good at developing relationships with clients and working with them to meet their needs."
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        true
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+#resume_section_skills:          true
+#resume_section_recognition:     true
+#resume_section_links:           true
+#resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/potsus/"
+  #resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/alexanderpotts"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           "https://apotts.me"
+resume_print_social_links:      true
+
+
 # Build settings
 markdown: kramdown
 
@@ -32,3 +70,4 @@ kramdown:
 
 permalink: pretty
 exclude: [vendor]
+
