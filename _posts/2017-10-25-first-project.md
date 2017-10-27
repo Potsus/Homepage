@@ -40,7 +40,7 @@ services:
     webserver:
       image: nginx-amplify
       volumes:
-       - ./nginx.conf:/etc/nginx/nginx.conf:ro #overwrite nginx conf with some custom 
+       - ./nginx.conf:/etc/nginx/nginx.conf:ro #overwrite nginx conf with custom config
        - ./jekyll/_site:/var/www/html:ro #mount the static site to the container
 ...
 ```
