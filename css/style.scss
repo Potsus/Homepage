@@ -25,9 +25,9 @@ $light-blue:     #3CA2A2;
 $green:          #92C7A3;
 $light:          #DFECE6;
 $white:          #FFFFFF;
-$dark-purple:    #300030;
-$medium-purple:  #480048;
-$regular-purple: #601848;
+$dark-purple:    #6a0080;
+$medium-purple:  #d05ce3;
+$regular-purple: #9c27b0;
 $red:            #C04848;
 $orange:         #F07241;
 
@@ -54,7 +54,7 @@ body {
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $regular-purple;
 	text-decoration: none;
 }
 
@@ -135,7 +135,11 @@ ul {
 	padding-right: 30px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 5px solid $regular-purple;
+}
+
+.content-panel img{
+	max-width: 100%;
 }
 
 #my-menu {
@@ -149,7 +153,7 @@ ul {
 	}
 
 	a:hover {
-		color: $light-blue;
+		color: $regular-purple;
 	}
 
 	.pages {
@@ -234,6 +238,17 @@ ul {
 		max-width:700px;
 	}
 
+	@media (min-width: $screen-md-min) {
+		width: 900px;
+		max-width:900px;
+	}
+
+	@media (min-width: $screen-lg-min) {
+		width: 1000px;
+		max-width:1000px;
+	}
+
+
 	.header {
 		margin-top: 10px;
 		margin-left: 0%;
@@ -252,12 +267,12 @@ ul {
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $light-blue;
+		border-bottom: 10px solid $regular-purple;
 	}
 
 	.author-header {
 		font-family: 'Montserrat', sans-serif;
-		color: $light-blue;
+		color: $regular-purple;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
@@ -306,7 +321,7 @@ ul {
 
 		h2 {
 			margin-bottom: 30px;
-			color: $light-blue;
+			color: $regular-purple;
 			font-size: 26px;
 		}
 
@@ -346,7 +361,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $regular-purple;
 		}
 	}
 
@@ -373,7 +388,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $regular-purple;
 		}
 
 		ul {
@@ -476,7 +491,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $regular-purple;
 		}
 
 		h4 {
@@ -699,7 +714,7 @@ ul {
 				}
 
 				a:hover {
-					color: $light-blue;
+					color: $regular-purple;
 				}
 
 			}
@@ -809,7 +824,7 @@ ul {
 		margin-top: 30px;
 
 		a {
-			color: $light-blue;
+			color: $regular-purple;
 		}
 	}
 
@@ -850,8 +865,8 @@ ul {
 }
 
 .btn-categories {
-	background-color: $light-blue;
-	border-color: $light-blue;
+	background-color: $regular-purple;
+	border-color: $regular-purple;
 	color: $white;
 	&:hover {
 		background-color: $dark-blue;
@@ -871,10 +886,10 @@ ul {
 }
 
 .dropdown-menu {
-	background-color: $light-blue;
+	background-color: $regular-purple;
 	color: $white;
 	> li > a {
-		background-color: $light-blue;
+		background-color: $regular-purple;
 		color: $white;
 		&:hover {
 			background-color: $dark-blue;
@@ -898,4 +913,24 @@ th{
 td{
     padding: 2px;
     border:1px solid $dark-blue;;
+}
+
+.project-image {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+}
+
+.project-image-caption {
+	position: absolute;
+	bottom: 10px;
+	text-align: right;
+	right: 0;
+	padding: 8px;
+	background-color: rgba(0,0,0,0.7);
+	border-radius: 10px 0 0 10px;
+}
+
+.project-image-caption span {
+	padding: 5px
 }
