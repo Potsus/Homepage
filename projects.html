@@ -1,0 +1,24 @@
+---
+layout:   multi_page
+title: Projects
+thumbnail: suitcase
+make-smaller-titles: true
+---
+
+
+{% for proj in site.data.projects %}
+<div class="col-md-12 content-panel article content">
+    <h1 class>{{ proj.project }}</h1>
+    <div class="author-text">{{ proj.description }}</div>
+    {% for img in proj.images %}
+    <div class="project-image">
+        <img src="/images/projects/{{ proj.name }}/{{ img.file }}">
+        <div class="project-image-caption">
+            <div class="image-title">{{ img.title }}</div>
+            <div class="image-caption">{{ img.caption }}</div>
+        </div>
+    </div>
+    {% endfor %}
+    <a href="{{ proj.url }}">Launch</a>
+</div>
+{% endfor %}
