@@ -1,0 +1,21 @@
+
+- url: /          
+  icon: fa-home          
+  name: Home
+        
+- url: /posts/    
+  icon: fa-archive       
+  name: All Posts
+   
+- url: /projects/ 
+  icon: fa-suitcase      
+  name: Projects
+    
+- url: /resume/   
+  icon: fa-user-circle-o 
+  name: Resume
+      
+- url: /search/   
+  icon: fa-search        
+  name: Search
+      

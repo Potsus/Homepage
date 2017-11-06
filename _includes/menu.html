@@ -1,0 +1,5 @@
+<ul class="pages">
+  {% for dir in site.data.sitemap %}
+  <li><a href="{{ site.baseurl }}{{ dir.url }}"><i class="fa {{ dir.icon }}"></i> {{ dir.name }}</a></li>
+  {% endfor %}
+</ul>
