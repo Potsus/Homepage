@@ -1,0 +1,38 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: Freelance Web Developer
+  role: Consultant 
+  year: 2014 &mdash; Present
+  url: apotts.me
+  summary: As a freelance WebDev I have created websites for several companies from basic company sites, to advanced user-interaction and data gathering sites. Many of the sites I’ve built have been within the constraints of an existing CMS where I have had to create non-standard workarounds to meet the client’s needs and ensure sites are easily editable by clients. Examples available upon request. 
+
+- organization: Ticketleap Inc.
+  role: Software Engineer
+  year: 11/2015 &mdash; 02/2017
+  url: ticketleap.com
+  summary: Developer working on both the front and back end of the Ticketleap product as well as a backend contributor on the new Port product. Using Django, Flask, Jekyll, Jquery and Sql. Refactored legacy code, created new api’s for integrating with Zapier, upgraded error detection and customer warning systems, managed existing  salesforce integration, improved ticket purchasing experience. Also worked on a product to ease money management and accounting between ticketleap and it’s customer’s businesses. Studied modern money transfer systems and attended conferences for banks and credit card companies to better understand modern money management systems.
+
+- organization: FastFig Inc.
+  role: Lead Developer, CTO
+  year: 12/2012 &mdash; 2015
+  url: fastfig.com
+  summary: I joined Fig Labs in December of 2012 as Lead Developer where I developed some of the key infrastructure for FastFig, a start-up online math-focused word processor. I was responsible for back end development and managing a full LAMP stack in addition to several Node servers. My work included the creation of robust document and user management systems, as well as a LaTeX to SAGE translator capable of solving a variety of high level math problems. As CTO my responsibilities also included Server Maintenance and upgrades through AWS, SSL certificate updates, and domain management. Created, modified and maintained large scale SQL databases for web based applications. Interviewed, hired, and managed interns for coding projects including website upgrades. Prepared presentations and attending high level business meetings to secure partnerships and investors.
+
+- organization: The Reliable Companies
+  role: Junior Network Admin 
+  year: 08/2011 &mdash; 01/2013
+  url: reliable-co.com
+  summary: As a Network Admin I was responsible for managing servers, updating antivirus, and maintianing workstations and network infrastructure across 4 locations and about 100 computers. Performed weekly on and offsite backups of +50TB data stores. Built and maintained servers and desktops. I met with clients and established website development and marketing needs as well as workable goals. I then built these websites in BusinessCatalyst or the client's prefered CMS.
+
+- organization: Ursinus College
+  role: Tech Support Specialist
+  year: 09/2010 &mdash; 05/2011
+  url: https://www.ursinus.edu/
+  summary: Customer relations. Repaired and rebuilt both laptop and desktop computers. Virus removal and bugfix on Windows, Mac, and Linux platforms, as well as network management. Data recovery.
+
+- organization: WHYY
+  role: Network Intern
+  year: 05/2010 &mdash; 08/2010
+  url: apotts.me
+  summary: Managed and wired networking components. Built desktops and servers and setup networking management as well as website components. Managed the WHYY SHOUTCast online radio station. Protected network against viruses and fixed bugs.
