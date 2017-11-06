@@ -24,6 +24,7 @@ Temporary Items
 # Jekyll Specific
 _site/
 .jekyll-metadata
+.sass-cache
 
 # Ruby
 Gemfile.lock

@@ -7,18 +7,37 @@ make-smaller-titles: true
 
 
 {% for proj in site.data.projects %}
-<div class="col-md-12 content-panel article content">
-    <h1 class>{{ proj.project }}</h1>
-    <div class="author-text">{{ proj.description }}</div>
-    {% for img in proj.images %}
-    <div class="project-image">
-        <img src="/images/projects/{{ proj.name }}/{{ img.file }}">
-        <div class="project-image-caption">
-            <div class="image-title">{{ img.title }}</div>
-            <div class="image-caption">{{ img.caption }}</div>
+
+    <div class="col-md-12 content-panel article content">
+
+        <h1 class>{{ proj.project }}</h1>
+        <div class="author-text">{{ proj.description }}</div>
+
+        <br>
+        <div class="slider">
+            <ul>
+                {% for img in proj.images %}
+                <li>
+
+                    <div class="project-image">
+                        <img src="/images/projects/{{ proj.name }}/{{ img.file }}">
+                        <div class="project-image-caption">
+                            <div class="image-title">{{ img.title }}</div>
+                            <div class="image-caption">{{ img.caption }}</div>
+                        </div>
+                    </div>
+
+                </li>
+                {% endfor %}
+            </ul>
         </div>
+
+        <a href="{{ proj.url }}">
+            <div class="launch-button">
+            Launch
+            </div>
+        </a>
+
     </div>
-    {% endfor %}
-    <a href="{{ proj.url }}">Launch</a>
-</div>
+
 {% endfor %}

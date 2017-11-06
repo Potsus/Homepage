@@ -1,16 +1,24 @@
+<!--  FOOTER HTML  -->
 <div class="footer clearfix">
   <div class="col-md-6">
     Shamelessly modified by <a href="{{ site.linkedin_link }}">Alex Potts</a>
   </div>
   <div class="col-md-6">
-    &lt;/&gt; on <a href="https://github.com/potsus/carte-noire">Github</a> &nbsp;<i class="fa fa-github-alt"></i>
+    &lt;/&gt; on <a href="https://github.com/potsus/homepage">Github</a> &nbsp;<i class="fa fa-github-alt"></i>
   </div>
 </div>
 
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+<!--  SCRIPT LOAD  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/js/jquery.mmenu.min.all.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+
+
+<!--  PAGE SCRIPTS  -->
+
 <script>hljs.initHighlightingOnLoad();</script>
 <script type="text/javascript">
    $(document).ready(function() {
@@ -84,3 +92,12 @@
   })();
 </script>
 {% endif %}
+
+
+<!--  UNSLIDER  -->
+<script src="{{ site.baseurl }}/js/unslider.js"></script>
+<script>
+  jQuery(document).ready(function($) {
+    $('.slider').unslider();
+  });
+</script>

@@ -4,23 +4,28 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
+    <!-- Scripts go in the footer -->
+
+    <!--  STYLESHEETS  -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/css/style.css" />
     <link rel="stylesheet" type="text/css" media="all" href="{{ site.baseurl }}/css/jquery.mmenu.all.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/css/highlightjs.piperita.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/unslider.css">
 
-    <!-- Favicons generated at http://realfavicongenerator.net/ -->
-
+    <!--  FAVICONS  -->
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicons/favicon-180.png">
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicons/favicon-32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicons/favicon-16.png" sizes="16x16">
     <link rel="mask-icon" href="{{ site.baseurl }}/favicons/favicon.svg" color="#6c6d69">
 
+
     {% if site.addthis_id %}
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ site.addthis_id }}"></script>
     {% endif %}
+
 
     {% if page.content contains '<script type="math/tex' %}
         <!-- MathJax for LaTeX -->
