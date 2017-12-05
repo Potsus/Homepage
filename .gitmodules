@@ -1,0 +1,3 @@
+[submodule "greasemonkey"]
+	path = greasemonkey
+	url = git@github.com:Potsus/Greasemonkey.git
